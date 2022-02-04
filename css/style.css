@@ -871,7 +871,7 @@ p a{
 	.project-thumbnail .project-image{
 		display: block;
 		width: 100%;
-		height: 260px;
+		height: 300px;
 		-webkit-transition: 0.1s;
 		transition: 0.1s;
 		margin-bottom: 5px;
@@ -889,8 +889,8 @@ p a{
 			-moz-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 			width: auto; height: auto;
-			max-width: 260px;
-			max-height: 200px;
+			max-width: 280px;
+			max-height: 280px;
 		}
 		
 .read-more{
