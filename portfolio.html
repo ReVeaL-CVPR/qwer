@@ -17,7 +17,13 @@
 	<!--<script src="https://use.typekit.net/yjp3rpu.js"></script> -->
 	<script>try { Typekit.load({ async: true }); } catch (e) { }</script>
 
-
+	<!-- my Javascript -->
+	<script src="css/main.js"></script>
+	<!-- load and instantiate ScrollReveal first -->
+	<script src="css/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal({ reset: false });
+	</script>
 
 	<link rel="dns-prefetch" href="https://s.w.org/">
 	<link rel="stylesheet" id="wp-block-library-css" href="./css/style.min.css" type="text/css" media="all">
@@ -62,8 +68,8 @@
 
 				<span class="projects">
 
-					<div class="margin four" style="margin-bottom: 60px;">
-						<h2><strong>Design as a Mirror of Society</strong></h2>
+					<div class="margin four block" style="margin-bottom: 60px;">
+						<h2><strong>Design as a Mirror of Society</strong></h2><br><br>
 						<div  style="position:relative;left:30px">
 						<p>
 							In glass, we can see the reflection of objects. In history, we can see the reflection of
@@ -78,14 +84,14 @@
 							of our hearts. As I delved into landscape design during my undergraduate study, I began to
 							think more deeply about how to reflect social issues effectively and integrate them into my
 							work.
-						</p>
+						</p><br><br><br>
 						</div>
 					</div>
 
 
 
 					<h3> UX Design &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
-					<div class="margin" id="projects">
+					<div class="margin block" id="projects">
 
 
 						<a href="./terratan.html" class="project-thumbnail">
@@ -117,7 +123,7 @@
 					</div>
 
 					<h3> Landscape Architecture &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
-					<div class="margin" id="projects">
+					<div class="margin block" id="projects">
 
 
 
@@ -191,7 +197,10 @@
 		</footer>
 	</div>
 	<script type="text/javascript" src="./css/wp-embed.min.js.下载"></script>
-
+	<script type="text/javascript" src="./css/wp-embed.min.js.下载"></script>
+    <script type="text/javascript">
+        sr.reveal('.block', { delay: 300, })
+    </script>
 </body>
 
 </html>
